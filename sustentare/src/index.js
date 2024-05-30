@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./globals.css"
-import "./lineIcons.css"
 
 import Header from './sections/header/Header';
 
