@@ -1,0 +1,26 @@
+.skills{
+    background-color: var(--laranja);
+    color: var(--preto);
+    padding: 10vh 0;
+}
+.skills > div{
+    flex-direction: column;
+    width: 75%;
+    text-align: center;
+}
+.skills > div > *{
+    margin: 5px 0;
+}
+
+.skillIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5vh 0;
+}
+.skillIcons > div{
+    width: 30%;
+}
+.skillIcons .icon{
+    font-size: 40px;
+}
