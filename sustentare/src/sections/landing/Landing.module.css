@@ -1,0 +1,26 @@
+.landing{
+    height: 80vh;
+}
+
+.landing > div > div:first-child{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.landing > div > div:first-child > *{
+    margin: 3vh;
+}
+.landing h1{
+    text-transform: capitalize;
+    font-size: var(--xg);
+}
+.landing button{
+    color: var(--laranja);
+}
+
+.landing img{
+    object-fit: contain;
+}

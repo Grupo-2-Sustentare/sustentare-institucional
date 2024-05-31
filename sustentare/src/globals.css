@@ -6,7 +6,12 @@
     --p: 15px;
     --m: 24px;
     --g: 28px;
-    --xg: 47px;
+    --xg: 38px;
+    --xxg: 47px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
 }
 
 body{
@@ -18,6 +23,18 @@ body{
     padding: 0;
     border: none;
     font-family: "Inter", sans-serif;
+}
+
+nav, section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav > div, section > div{
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 p{

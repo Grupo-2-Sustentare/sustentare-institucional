@@ -4,13 +4,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./globals.css"
 
-import Header from './sections/header/Header';
+import Main from './Main';
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Header />} />
+        <Route path='/' element={<Main />} />
         <Route path='*' element="{}" />
       </Routes>
     </BrowserRouter>

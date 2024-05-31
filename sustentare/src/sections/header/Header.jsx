@@ -1,8 +1,7 @@
-import React from "react";
 import styles from "./Header.module.css"
 import logoMarca from "../../assets/brand-images/logomarca.png"
 
-const Header = () => {
+export default function Header () {
     return (
         <>
             <nav>
@@ -23,5 +22,3 @@ const Header = () => {
         </>
     )
 }
-
-export default Header;
