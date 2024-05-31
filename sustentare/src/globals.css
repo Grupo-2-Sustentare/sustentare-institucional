@@ -56,12 +56,14 @@ h4{
 ul{
     list-style: none;
 }
+
 button{
     color: var(--preto);
     background-color: var(--branco);
 
-    padding: 10px 15px;
+    padding: 15px 25px;
     border-radius: 4px;
+    font-size: var(--p);
     font-weight: 600;
     cursor: pointer;
 }
@@ -69,6 +71,10 @@ button:hover{
     opacity: 0.75;
     transition: 500ms;
 }
+button:has(.icon) > .icon{
+    margin-right: 15px;
+}
+
 img{
     width: 100%;
     height: 100%;
