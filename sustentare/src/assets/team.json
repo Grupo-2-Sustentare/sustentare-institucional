@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Alexandra H. Yara",
+        "funcao": "Product Owner e Desenvolvedora Back-end",
+        "linkedin": "alexandra-harumi-yara-476ba2286",
+        "github": "AlexandraHY14"
+    },
+    {
+        "nome": "Gabriel Q. Michelon",
+        "funcao": "Desenvolvedor Full-Stack",
+        "linkedin": "gabriel-quessada-michelon-87559222a",
+        "github": "GabrielMichelon2004"
+    },
+    {
+        "nome": "Gustavo P. Castro",
+        "funcao": "Product Owner e Designer",
+        "linkedin": "guspcastro",
+        "github": "PereiraGus"
+    },
+    {
+        "nome": "S. Julia Justino",
+        "funcao": "Agilista e Product Owner",
+        "linkedin": "julia-justino-102869209",
+        "github": "Julia-Justino"
+    },
+    {
+        "nome": "Raphael Klein A.",
+        "funcao": "Arquiteto de Software e Desenvolvedor Back-end",
+        "linkedin": "raphael-klein-dev",
+        "github": "/RaphaelKlein"
+    }
+]

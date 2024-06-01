@@ -1,0 +1,42 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 0;
+    color: var(--laranja);
+}
+
+.team > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.team > div > *{
+    margin: 1vh;
+}
+
+.team > div > h3{
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.team hr {
+    width: 60%;
+    height: 1px;
+    background-color: var(--laranja);
+}
+
+.teamMembers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    
+    gap: 2em 2.7em;
+    
+    width: 90%;
+    margin-top: 50px !important;
+}

@@ -1,0 +1,55 @@
+.teamMemberCard{
+    background-color: var(--branco);
+    height: 320px;
+    width: 180px;
+    border-radius: 3px;
+    padding: 5vh 1vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--preto);
+}
+.teamMemberCard > * {
+    margin: 1vh;
+}
+
+.teamMemberCard img{
+    width: 120px;
+    height: 120px;
+    border-radius: 360px;
+    object-fit: cover;
+
+    border: solid 1px var(--laranja);
+}
+.teamMemberCard h3{
+    font-size: 1.1em;
+    text-align: center;
+}
+.teamMemberCard p{
+    color: var(--cinza);
+}
+
+.teamMemberCard > div{
+    margin-top: 3vh;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+.teamMemberCard button{
+    background-color: var(--laranja);
+    color: var(--branco);
+    width: 60px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamMemberCard button > .icon{
+    height: 2em;
+}
