@@ -10,6 +10,7 @@
     align-items: center;
 
     color: var(--preto);
+    box-shadow: 0 0 12px var(--laranja);
 }
 .teamMemberCard > * {
     margin: 1vh;

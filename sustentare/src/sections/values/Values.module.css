@@ -1,0 +1,26 @@
+.values{
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 10vh 0;
+}
+.values h3{
+    font-weight: 200;
+    color: var(--laranja);
+    text-transform: uppercase;
+}
+.values hr{
+    width: 60%;
+    height: 1px;
+    background-color: var(--laranja);
+}
+
+.values > *{
+    margin: 1vh;
+}
+
+.values > div{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 50px !important;
+}

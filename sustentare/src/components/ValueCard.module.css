@@ -1,0 +1,37 @@
+.valueCard{
+    background-color: var(--branco);
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 5px;
+    gap: 1em;
+    width: 280px;
+
+    border: solid 2px var(--laranja);
+    box-shadow: 0 0 12px var(--laranja);
+}
+
+.valueCard h4{
+    font-size: 1.2em;
+    color: var(--laranja);
+}
+.valueCard > p{
+    line-height: 1.5em;
+}
+
+.valueCard > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 0.9em;
+}
+.valueCard > ul > li{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    column-gap: 1em;
+}
+.valueCard .icon{
+    color: var(--laranja)
+}

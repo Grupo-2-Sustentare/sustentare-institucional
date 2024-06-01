@@ -1,7 +1,7 @@
 [
     {
         "titulo": "Missão",
-        "corpo": "Oferecer soluções estratégicas e personalizadas para otimizar o desempenho dos clientes, com base em análises especializadas e expertise, mantendo integridade, transparência e excelência.",
+        "corpo": "Oferecer soluções estratégicas e personalizadas para otimizar o desempenho dos clientes, com base em análises especializadas e expertise.",
         "topicos": [
             "Desenvolver abordagens direcionadas para resolver desafios específicos do cliente.",
             "Adaptar as soluções às necessidades individuais de cada cliente.",
@@ -10,7 +10,7 @@
     },
     {
         "titulo": "Visão",
-        "corpo": "Nosso objetivo é ser o braço direito dos nossos clientes, proporcionando uma experiência excepcional e soluções personalizadas que não apenas resolvam seus desafios, mas também os inspirem a alcançar novos patamares de sucesso e crescimento.",
+        "corpo": "Nosso objetivo é ser o braço direito dos nossos clientes, proporcionando uma experiência excepcional e soluções personalizadas.",
         "topicos": [
             "Estabelecer parcerias de longo prazo baseadas em confiança mútua.",
             "Utilizar tecnologias de ponta para otimizar a eficiência e entregar resultados que excedam as expectativas dos clientes."
@@ -18,7 +18,7 @@
     },
     {
         "titulo": "Valores",
-        "corpo": "Nosso compromisso é garantir a satisfação do cliente e construir relacionamentos duradouros baseados na confiança e em resultados consistentes.",
+        "corpo": "Nos comprometemos com a satisfação do cliente, almejando construir relacionamentos duradouros em confiança e resultados.",
         "topicos": [
             "Empatia.",
             "Respeito à Diversidade.",
