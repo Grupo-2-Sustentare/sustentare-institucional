@@ -12,6 +12,7 @@ export default function Main(){
             <Landing />
             <Skills />
             <Team />
+            <Values />
             <Footer />
         </>
     )
