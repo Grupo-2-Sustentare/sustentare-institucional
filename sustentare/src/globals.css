@@ -1,5 +1,5 @@
 :root {
-    --preto: #272727;
+    --preto: #111111;
     --branco: #f8f8f8;
     --laranja: #FF8C00;
     --cinza: #2e2e2e;
@@ -16,7 +16,7 @@ html {
 }
 
 body{
-    background-color: #000000;
+    background-color: var(--preto);
     color: #FFFFFF;
 }
 *{

@@ -2,6 +2,8 @@ import styles from "./Landing.module.css"
 import telefone from "../../assets/cellphone.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
+import enviarEmail from "../../assets/sendEmail"
+
 export default function Landing() {
     return (
         <>
@@ -13,7 +15,7 @@ export default function Landing() {
                             De projetos simples a complexos, a Sustentare te ajuda
                             a solucionar problemas e a tornar seus projetos realidade.
                         </p>
-                        <button>
+                        <button onClick={enviarEmail}>
                             <FontAwesomeIcon icon="envelope-open-text" className="icon"/>    
                             Nosso email
                         </button>

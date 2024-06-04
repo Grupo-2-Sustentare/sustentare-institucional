@@ -1,0 +1,3 @@
+export default function enviarEmail(){
+    // Implementar quando tiver email...
+}

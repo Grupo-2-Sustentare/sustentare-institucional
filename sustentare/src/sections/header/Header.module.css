@@ -1,3 +1,9 @@
+nav{
+  position: sticky;
+  top: 0;
+  background-color: var(--preto);
+}
+
 nav > div{
   padding: 2cqi;
 }
@@ -14,8 +20,9 @@ nav a{
   color: inherit;
 }
 
-.containerImg > img{
+.containerImg > a > img{
   width: 50%;
+  object-fit: contain;
 }
 
 .containerLinks{
