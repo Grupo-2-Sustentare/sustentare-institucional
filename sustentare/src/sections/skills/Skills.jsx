@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export default function Skills() {
     return (
         <>
-            <section className={styles.skills}>
+            <section id="skills" className={styles.skills}>
                 <div>
                     <h2>
                         Equipe experiente e adaptativa, com mais de

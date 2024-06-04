@@ -5,7 +5,7 @@ import logo from "../../assets/brand-images/logomarca.png"
 export default function Footer(){
     return (
         <>
-            <footer>
+            <footer id="footer">
                 <div>
                     <img src={logo} alt="Logomarca da sustentare" />
                 </div>
@@ -16,10 +16,10 @@ export default function Footer(){
                 <div>
                     <h4>Mapa do Site</h4>
                     <ul>
-                        <li><a href="">Início</a></li>
-                        <li><a href="">Experiência</a></li>
-                        <li><a href="">Equipe</a></li>
-                        <li><a href="">Valores</a></li>
+                        <li><a href="#nav">Início</a></li>
+                        <li><a href="#skills">Experiência</a></li>
+                        <li><a href="#team">Equipe</a></li>
+                        <li><a href="#values">Valores</a></li>
                     </ul>
                 </div>
             </footer>

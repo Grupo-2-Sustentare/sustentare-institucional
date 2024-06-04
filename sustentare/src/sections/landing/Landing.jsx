@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export default function Landing() {
     return (
         <>
-            <section className={styles.landing}>
+            <section id="landing" className={styles.landing}>
                 <div>
                     <div>
                         <h1>Tecnologia de ponta,<br/>na palma das suas mãos.</h1>

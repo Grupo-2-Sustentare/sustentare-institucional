@@ -5,7 +5,7 @@ import team from "../../assets/team.json"
 export default function Team() {
     return (
         <>
-            <section className={styles.team}>
+            <section id="team" className={styles.team}>
                 <div>
                     <h3>Sobre nós</h3>
                     <hr />

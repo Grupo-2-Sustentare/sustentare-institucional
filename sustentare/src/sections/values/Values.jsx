@@ -5,7 +5,7 @@ import ValueCard from "../../components/ValueCard"
 export default function Values() {
     return (
         <>
-            <section className={styles.values}>
+            <section id="values" className={styles.values}>
                 <h3>Nossos valores</h3>
                 <hr />
                 <p>
